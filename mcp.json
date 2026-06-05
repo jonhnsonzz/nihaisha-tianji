@@ -1,0 +1,30 @@
+{
+  "name": "nihaisha-tianji",
+  "description": "倪海厦天纪查询 — Ni Haixia Tianji Knowledge Query (I-Ching, Ziwei Doushu, Feng Shui)",
+  "tools": [
+    {
+      "name": "query_tianji",
+      "description": "Search Ni Haixia Tianji knowledge base. 输入关键词，搜索天纪天道/人道/地道三大系统。",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "keyword": {
+            "type": "string",
+            "description": "搜索关键词（如：紫微、乾卦、巽位）"
+          },
+          "module": {
+            "type": "string",
+            "description": "模块范围：tiandao（天道）/ rendao（人道）/ dimai（地道）/ all（全部）",
+            "default": "all"
+          },
+          "top_k": {
+            "type": "integer",
+            "description": "返回结果数量",
+            "default": 5
+          }
+        },
+        "required": ["keyword"]
+      }
+    }
+  ]
+}
