@@ -1,0 +1,6 @@
+interface:
+  display_name: "Nihaisha 倪海厦天纪课程"
+  short_description: "把倪海厦天纪课程变成命理风水入口，涵盖天道（紫微斗数）、人道（64卦）、地道（阳宅风水）全套命理体系"
+  default_prompt: "Use $nihaisha_tianji to 用倪海厦天纪课程资料回答命理风水问题。天纪是命理风水体系（紫微斗数/64卦/阳宅风水），不是中医。严禁混入中医内容——天纪只讲命理、卦象、风水，不涉及方剂、穴位、辨证。回答格式：先定位三才系统（天道/人道/地道），再引用对应课程原文，最后加「课程学习仅供参考」声明。"
+policy:
+  allow_implicit_invocation: true

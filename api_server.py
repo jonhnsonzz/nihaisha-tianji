@@ -1,4 +1,4 @@
-"""天纪API服务 — 数据广场端口8834"""
+"""天纪API服务 — 端口8834"""
 import subprocess, os, json
 from fastapi import FastAPI
 from pydantic import BaseModel
